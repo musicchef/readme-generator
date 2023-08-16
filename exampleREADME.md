@@ -2,7 +2,7 @@
 
 ## Description
 
-This command-line application generates a high-quality, professional README.md for your project based on user input. It includes sections for Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions.
+Enter Description here
 
 ## Table of Contents
 
@@ -54,6 +54,6 @@ This project is licensed under the LICENSE_TYPE. See the LICENSE file for detail
 ## Questions
 For questions or further assistance, feel free to contact me:
 
-GitHub: YOUR_GITHUB_USERNAME
+GitHub: [Your Github Username](https://github.com/your_github_username)
 
-Email: YOUR_EMAIL@example.com
+Email: [Your EMAIL](mailto:youremail@email.com)

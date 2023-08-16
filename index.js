@@ -44,7 +44,7 @@ inquirer
       response.linkedin
     );
 
-    fs.writeFile("README.md", htmlContent, (err) =>
+    fs.writeFile("./output/README.md", htmlContent, (err) =>
       err ? console.error(err) : console.log("success!")
     );
   });
