@@ -2,40 +2,58 @@
 
 ## Description
 
-```md
-GIVEN a command-line application that accepts user input
-WHEN I am prompted for information about my application repository
-THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
-WHEN I enter my project title
-THEN this is displayed as the title of the README
-WHEN I enter a description, installation instructions, usage information, contribution guidelines, and test instructions
-THEN this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests
-WHEN I choose a license for my application from a list of options
-THEN a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
-WHEN I enter my GitHub username
-THEN this is added to the section of the README entitled Questions, with a link to my GitHub profile
-WHEN I enter my email address
-THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
-WHEN I click on the links in the Table of Contents
-THEN I am taken to the corresponding section of the README
-```
+This command-line application generates a high-quality, professional README.md for your project based on user input. It includes sections for Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions.
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [License](#license)
+- [Questions](#questions)
 
 ## Installation
 
-```md
-AS A developer
-I WANT a README generator
-SO THAT I can quickly create a professional README for a new project
-```
+To install and use this application, follow these steps:
+
+1. Clone the repository to your local machine.
+2. Navigate to the project's root directory.
+3. Run `npm install` to install the required dependencies.
 
 ## Usage
 
+To use the README generator:
+
+1. Open your terminal or command prompt.
+2. Navigate to the project's root directory.
+3. Run the command `node index.js`.
+4. Follow the prompts to provide information about your project.
+5. Once you've answered all the prompts, a professional README.md file will be generated in the `output/` directory.
+
 ## Contributing
+
+Contributions to this project are welcome! To contribute, follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them.
+4. Push your changes to your forked repository.
+5. Submit a pull request to the original repository.
 
 ## Tests
 
+To run tests for this application, use the following command:
+
+```bash
+npm test
+```
 ## License
+This project is licensed under the LICENSE_TYPE. See the LICENSE file for details.
 
 ## Questions
-Github link
-email address plus instructions for additional questions
+For questions or further assistance, feel free to contact me:
+
+GitHub: YOUR_GITHUB_USERNAME
+
+Email: YOUR_EMAIL@example.com
